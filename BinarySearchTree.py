@@ -1,8 +1,8 @@
 class Node:
     def __init__(self, val):
+        self.data = val
         self.l_child = None
         self.r_child = None
-        self.data = val
 
 def binary_insert(root, node):
     if root is None:
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     n = Node(13)
     binary_insert(n,Node(10))
     binary_insert(n,Node(17))
-    binary_insert(n,Node(8))
+    binary_insert(n,Node(13))
     binary_insert(n,Node(12))
     binary_insert(n,Node(15))
     binary_insert(n,Node(19))
