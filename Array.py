@@ -24,7 +24,8 @@ class Array:
         return self.ls.reverse()
 
 if __name__ == '__main__':
-    ls = List()
+    ls = Array()
+    
     ls.appendToList(1)
     ls.appendToList(6)
     ls.appendToList(10)
@@ -53,9 +54,8 @@ if __name__ == '__main__':
     ls.appendToList(2)
     ls.appendToList(5)
     ls.removeFromList(2)
-    ls.printList()'
-    
-    
+    ls.printList()
+
     ls.insertToList(0, 5)
     ls.insertToList(1, 10)
     ls.insertToList(0, 6)
@@ -68,4 +68,3 @@ if __name__ == '__main__':
     ls.popItem()
     ls.reverseList()
     ls.printList()
-'
