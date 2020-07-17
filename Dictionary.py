@@ -18,8 +18,8 @@ class Dictionary:
 
 if __name__ == '__main__':
     d = Dictionary()
-    d.insert('First Name', 'Brian')
-    d.insert('Last Name', 'Stephenson')
+    d.insert('First Name', 'Taylor')
+    d.insert('Last Name', 'Saintable')
     d.insert('Age', '33')
     d.insert('Gender', 'Male')
     d.insert('Ethnicity', 'Black')
