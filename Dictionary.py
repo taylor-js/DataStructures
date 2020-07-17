@@ -24,7 +24,7 @@ if __name__ == '__main__':
     d.insert('Gender', 'Male')
     d.insert('Ethnicity', 'Black')
     d.insert('Country', 'United States')
-    d.insert('Email Address', 'Brian.Stephenson@mail.com')
+    d.insert('Email Address', 'Taylor.Saintable@mail.com')
     d.remove('Ethnicity')
     print(d.printPairs())
     print(d.search('First Name'))
